@@ -1,0 +1,154 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.hero-section {
+  height: 90vh;
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+              url("https://images.unsplash.com/photo-1492724441997-5dc865305da7");
+  background-size: cover;
+  background-position: center;
+}
+
+/* Glass effect card */
+.job-card {
+  background: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(10px);
+  border-radius: 15px;
+  transition: all 0.3s ease;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+.job-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 25px rgba(0,0,0,0.2);
+}
+
+/* Background gradient for jobs page */
+body {
+  background: linear-gradient(to right, #f8f9fa, #e9ecef);
+}
+
+.job-card {
+  transition: all 0.3s ease;
+  border-radius: 18px;
+  padding: 25px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}
+
+.job-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 15px 50px rgba(0,0,0,0.2);
+}
+
+.company-logo {
+  width: 50px;
+  height: 50px;
+  border-radius: 12px;
+  object-fit: cover;
+  background: white;
+  padding: 5px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.featured-badge {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: gold;
+  padding: 5px 10px;
+  font-size: 12px;
+  border-radius: 20px;
+}
+
+.salary-gradient {
+  background: linear-gradient(45deg, #0d6efd, #6610f2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+}
+
+.glow-btn:hover {
+  box-shadow: 0 0 15px #0d6efd;
+}
+
+.page-item.active .page-link {
+  background: linear-gradient(45deg, #0d6efd, #6610f2);
+  border: none;
+}
+
+body {
+  background: linear-gradient(135deg, #f5f7fa, #e4e7eb);
+  min-height: 100vh;
+}
+
+.dark-mode {
+  background: #121212;
+  color: white;
+}
+
+.dark-mode .card {
+  background: #1e1e1e;
+  color: white;
+}
+
+.card {
+  border-radius: 16px;
+}
+
+.table-hover tbody tr:hover {
+  background-color: rgba(13,110,253,0.05);
+}
+
+.dark-mode {
+  background-color: #0f172a;
+  color: white;
+}
+
+.dark-mode .card {
+  background-color: #1e293b;
+  color: white;
+}
+
+.dark-mode .navbar {
+  background-color: #111827 !important;
+}
