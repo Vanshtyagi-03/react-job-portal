@@ -2,6 +2,10 @@
 
 A modern **Job Portal Web Application** built using **React.js + Vite**.
 
+# 🚀 React Job Portal
+
+[![Live Demo](https://img.shields.io/badge/Live-Demo-green?style=for-the-badge&logo=vercel)](https://react-job-portal-nine.vercel.app)
+
 ## 🔥 Features
 
 - Browse 50+ jobs
