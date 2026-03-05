@@ -32,16 +32,6 @@ A modern **Job Portal Web Application** built using **React.js + Vite**.
 - Saved Jobs
 - Admin Dashboard
 
-📷 Screenshots
-Home Page
-(home.png)
-Jobs Page
-(screenshot/jobs.png)
-Apply Job Form
-(screenshot/Apply.png)
-Admin Dashboard
-(screenshot/AdminDashboard.png)
-
 ## ⚡ Run Project
 
 ```bash
